@@ -1,0 +1,24 @@
+{
+  "name": "aws-ai-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zarif007/aws-AI-toolls.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zarif007/aws-AI-toolls/issues"
+  },
+  "homepage": "https://github.com/zarif007/aws-AI-toolls#readme",
+  "dependencies": {
+    "@aws-sdk/client-comprehend": "^3.363.0",
+    "aws-sdk": "^2.1413.0"
+  }
+}
