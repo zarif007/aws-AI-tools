@@ -19,6 +19,7 @@
   "homepage": "https://github.com/zarif007/aws-AI-toolls#readme",
   "dependencies": {
     "@aws-sdk/client-comprehend": "^3.363.0",
-    "aws-sdk": "^2.1413.0"
+    "aws-sdk": "^2.1413.0",
+    "axios": "^1.4.0"
   }
 }
