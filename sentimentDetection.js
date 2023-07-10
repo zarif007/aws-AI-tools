@@ -1,10 +1,13 @@
 const comprehend = require("@aws-sdk/client-comprehend");
 
+const accessKeyId = process.env.AWS_ACCESS_KEY_ID;
+const secretAccessKey = process.env.AWS_SECRET_ACCESS_KEY;
+
 const client = new comprehend.Comprehend({
   region: "us-east-1",
   credentials: {
-    accessKeyId: "",
-    secretAccessKey: "",
+    accessKeyId: accessKeyId,
+    secretAccessKey: secretAccessKey,
   },
 });
 
